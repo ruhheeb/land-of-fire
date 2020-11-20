@@ -1,23 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <title>Land Of Fire</title>
 </head>
-<body>
-  <div class="blocks">
 
+<body>
+
+  <article class="main-container">
     <header class="header">
       <div class="container">
+        <div class="header__wrapper">
+
+          <div class="header__top">
+            <a href="index.html" class="logo">
+              <img src="img/header/header-logo.svg" alt="logo: Land Of Fire" class="logo__image">
+            </a>
+
+            <button class="mobile-menu">
+              <span class="mobile-menu__line"></span>
+              <span class="mobile-menu__line mobile-menu__line--short"></span>
+              <span class="mobile-menu__line"></span>
+            </button>
+          </div>
+          <!-- /.header__top -->
+
+          <div class="header-main">
+            <h1 class="header-main__title">Explore close to home</h1>
+            <div class="search main__search">
+              <input type="search" class="search__input" name="search"
+                placeholder="Search for destinations, things to do, whats on and more">
+              <a href="#" class="search__button">
+                <img src="img/header/search-icon.svg" alt="icon: search" class="search__ico">
+              </a>
+            </div>
+            <!-- /.search main__search -->
+          </div>
+          <!-- /.main__wrapper -->
+
+        </div>
+        <!-- /.header__wrapper -->
 
       </div>
       <!-- /.container -->
     </header>
     <!-- /.header -->
+  </article>
 
 
+  <section class="do-first">
+    <div class="container">
+      <div class="do-first__wrapper">
+        <div class="do-first__head">
+          <h2 class="do-first__title">What will you do first?</h2>
+          <p class="do-first__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun dolore magna
+            aliqua.
+          </p>
+          <div class="do-first__image-wrap">
+            <img src="img/do-first/do-first-image.png" alt="image: " class="do-first__image">
+          </div>
+          <h3 class="do-first__bottom-title">Family fun</h3>
+          <p class="do-first__bottom-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun dolore magna
+            aliqua.
+          </p>
+        </div>
+        <!-- /.do-first__head -->
 
-  </div>
-  <!-- /.blocks -->
+        <div class="card do-first__card">
+
+          <ul class="card__list">
+
+            <li class="card__item">
+              <a href="#" class="card__link">
+                <img src="img/do-first/ship.svg" alt="icon: ship" class="card__icon">
+                On the water
+                <svg class="icon card__arrow">
+                  <use xlink:href="img/sprite.svg/#arrow-left"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="card__item">
+              <a href="#" class="card__link">
+                <img src="img/do-first/tracking.svg" alt="icon: tracking" class="card__icon">
+                Walking and hiking
+                <!-- <svg class="icon card__arrow">
+                  <use xlink:href="img/sprite.svg/#arrow-left"></use>
+                </svg> -->
+              </a>
+            </li>
+
+            <li class="card__item">
+              <a href="#" class="card__link">
+                <img src="img/do-first/forest.svg" alt="icon: forest" class="card__icon">
+                Nature and wildfire
+                <svg class="icon card__arrow">
+                  <use xlink:href="img/sprite.svg/#arrow-left"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="card__item">
+              <a href="#" class="card__link">
+                <img src="img/do-first/tag.svg" alt="icon: tag" class="card__icon">
+                Free thing to do
+                <svg class="icon card__arrow">
+                  <use xlink:href="img/sprite.svg/#arrow-left"></use>
+                </svg>
+              </a>
+            </li>
+
+          </ul>
+          <!-- /.card do-first__card -->
+
+        </div>
+        <!-- /.do-first__card -->
+
+      </div>
+      <!-- /.do-first__wrapper -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.do-first -->
+
+  <article class="main-container main-container__walks">
+    <section class="walks">
+      <div class="container">
+        <div class="walks__wrapper">
+          <div class="walks__top">
+            <div class="walks__adress-wrap">
+              <span class="walks__adress">Bilgah Beach</span>
+              <img src="img/walks/pin-icon.svg" alt="icon: pin" class="walks__icon">
+            </div>
+          </div>
+          <!-- /.walks__top -->
+
+          <div class="walks__head">
+            <h2 class="walks__title">Coastal escapes</h2>
+            <p class="walks__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.
+            </p>
+            <a href="" class="button walks__button">Discover more</a>
+          </div>
+          <!-- /.walks__head -->
+        </div>
+        <!-- /.walks__wrapper -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.walks -->
+  </article>
+  <!-- /.walks-block -->
 </body>
+
 </html>

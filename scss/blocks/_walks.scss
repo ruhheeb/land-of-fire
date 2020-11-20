@@ -1,0 +1,54 @@
+.main-container {
+  &__walks {
+    padding-top: 46px;
+  }
+}
+.walks {
+  padding: 74px 0 192px;
+  background-image: url(../img/walks/walks-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  &__top {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 81px;
+    padding: 43px 0;
+    width: 100%;
+    border-bottom: 1px solid $light-color;
+  }
+  &__adress-wrap {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid $light-color;
+  }
+  &__adress {
+    margin-right: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: $light-color;
+  }
+  &__icon {
+    width: 14px;
+    height: 20px;
+  }
+  &__head {
+    max-width: 873px;
+  }
+  &__title {
+    margin: 0 0 28px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    color: $light-color;
+  }
+  &__text {
+    margin: 0 0 28px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: $light-color;
+  }
+}
